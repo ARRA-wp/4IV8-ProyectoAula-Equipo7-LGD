@@ -1,14 +1,14 @@
 *{
     padding:0;
     margin:0;
-    color:#030303;
+    color:white;
     text-align: center;
      
 }
 
 
 #agrupar {
-    background-color: #FFFF; 
+    background-color: #9cb29e; 
     padding: 1rem; 
     text-align: center;
     
@@ -16,7 +16,7 @@
 }
 
 #menu { 
-    background-color: #FFFF; 
+    background-color:#000831 ; 
     padding: 2rem; 
     text-align: center;
 } 
@@ -27,6 +27,15 @@
     font: bold 14px verdana, sans-serif; 
     
 }
+footer{
+    position:unset;
+    background-color: #000831;
+    bottom:30px;
+    font-size:1rem ;
+
+}
+
+
 
 
 
