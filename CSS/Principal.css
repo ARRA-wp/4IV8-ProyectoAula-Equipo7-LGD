@@ -1,0 +1,53 @@
+
+*{
+    padding:0;
+    margin:0;
+    color:#030303;
+    text-align: center;
+     
+}
+
+
+#agrupar {
+    background-color: #FFFF; 
+    padding: 1rem; 
+    text-align: center;
+    
+
+}
+
+#menu { 
+    background-color: #FFFF; 
+    padding: 2rem; 
+    text-align: center;
+} 
+#menu li { 
+    display: inline-block; 
+    list-style: none; 
+    padding: 5px; 
+    font: bold 14px verdana, sans-serif; 
+    
+}
+
+
+
+html, body{
+background-color:#FFFF;
+
+}
+/*
+footer{
+    border: 4px solid rgb(0, 0, 0);
+    margin: 5px;
+}
+*/
+/*
+table{
+    border-collapse: separate;
+    border-spacing: 50px 50px;
+    background-color: darkorange;
+    text-size-adjust: 20px;
+    
+}
+*/
+
