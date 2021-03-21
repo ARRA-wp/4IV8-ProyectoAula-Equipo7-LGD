@@ -1,7 +1,7 @@
 *{
     padding:0;
     margin:0;
-    color:white;
+    color:rgb(3, 3, 3);
     text-align: center;
      
 }
@@ -16,7 +16,7 @@
 }
 
 #menu { 
-    background-color:#000831 ; 
+    background-color:#779147 ; 
     padding: 2rem; 
     text-align: center;
 } 
@@ -29,7 +29,7 @@
 }
 footer{
     position:unset;
-    background-color: #000831;
+    background-color: #779147;
     bottom:30px;
     font-size:1rem ;
 
