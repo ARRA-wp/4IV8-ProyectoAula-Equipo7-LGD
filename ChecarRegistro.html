@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checar Registro</title>
+    <link rel="stylesheet" href="./CSS/Administrador.css">
+    <link rel="stylesheet" href="./CSS/imagen.css">
+    <link rel="stylesheet" href="./CSS/ChecarRAdmin.css">
+    <script src="JS/Validar.js" ></script>
+
+
+</head>
+<body>
+
+    <header>
+        <p>&nbsp;</p>
+        
+            <img class="FC" src="IMG/FC.JPG" alt="Food">
+            <img class="FLG" src="IMG/Foodcontainer.JPG" alt="FoodC">
+            <img class="LG" src="IMG/LGD.JPG" alt="LO">
+        
+        <p>&nbsp;</p>
+        </header>
+        <div class="y"> 
+
+            <p class="pAdmin">Administrador</p>
+          </input>
+          <input name="Botón" type="button" value="Cerrar Sesión" >
+          
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="container-input">
+
+            <table class="TE" align="center" border="0" >
+           <tr>
+               <td class="td_sup" >Introduce el Producto a Buscar : </td>
+               <td class="td_inf" ><input type="text" name="Buscar-Producto"
+                   onkeypress="return validarp(event)" ></td>
+                   <td><input class="button-agregar" name="Botón" type="button" value="Buscar" onclick="">
+                   </td>
+           </tr>
+           </table>
+
+           <br>
+           <br>
+           <br>
+           <br>
+
+
+   </div>
+
+        <table align="center" border="10" class="tabla-Producto">
+            <thead>
+<tr>
+
+<th>ID_Producto</th>
+<th>Producto</th>
+<th>Calorias</th>
+<th>Azucares</th>
+<th>sodio</th>
+
+</tr>
+            </thead>
+
+            <tbody>
+<tr>
+
+    <td><input type="text" name="Id_Produi"
+        id="Id_Pro" readonly 
+        class="input_Producto" ></td>
+<td><input type="text" name="Producti"
+    id="Productoi" readonly 
+    class="input_Producto" ></td>
+<td><input type="text" name="Caloriai"
+    id="Caloriasi" readonly 
+    class="input_Producto" ></td>
+<td><input type="text" name="Azucari"
+    id="Azucaresi" readonly 
+    class="input_Producto" ></td>
+<td><input type="text" name="Sodi"
+    id="Sodioi" readonly 
+    class="input_Producto" ></td>
+    
+
+</tr>
+
+            </tbody>
+
+
+        </table>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="y">
+        <input class="button-regresar" name="Botón" type="button" value="Regresar" onclick="location.href='MySQLAdministrador.html'">
+    </div>
+
+    
+</body>
+<footer class="pie">
+    <table>
+        <tr style="width: 90%;">
+             
+         </tr>
+    </table>
+  </footer>
+</html>

@@ -1,0 +1,48 @@
+.FC 
+{ 
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    float: left; 
+    width: 180px; 
+}
+
+.FLG{
+    border: 2px solid black; 
+    margin: 60px;
+    margin-left: 27.8%;
+    width: 250px; 
+}
+.LG 
+{ 
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    float: right;
+    width: 160px; 
+}
+.titulos{
+    margin-top: -20px;
+}
+
+.enlace-cen{
+    align-items: center;
+    padding: 10px; 
+    margin: 10px; 
+}
+.boton-izq{
+    padding: 10px; 
+    margin: 10px; 
+    float: right;
+
+}
+
+
+
+footer {
+    margin-top: 50px;
+    background-color: red;
+    position: relative;
+    height: 110px;
+    width:100%;
+}
