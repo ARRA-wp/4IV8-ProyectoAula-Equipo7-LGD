@@ -5,7 +5,8 @@
     <link rel="shortcut icon" href="IMG/FC.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="CSS/iniciars.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script language="JavaScript" type="text/JavaScript"src="./JS/validar.js"></script>   
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión</title>
 </head>
 <body>
@@ -23,24 +24,22 @@
     <br>
 
     <center>
-        <table class="datos">
-           <tr>
-            <td class="sup">Usuario</td> 
-            <td class="inf"><input type="text" name="usuario"></td> 
-           </tr>
-           <tr></tr>
-           <tr></tr>
-           <tr>
-            <td class="sup">Contraseña</td>
-            <td class="inf"><input type="password" name="usuario"></td> 
-           </tr>
-        </table>
+       <table>
+        <tr>
+            <td class="sup">Nombre:</td>
+            <td class="inf"><input type="text" name="nombre" size="12" ></td>
+        </tr>
+        <tr>
+            <td class="sup">Contraseña:</td>
+            <td class="inf"><input type="password" name="contra" size="12" ></td>
+        </tr>
+       </table>
     </center>
 
 
     <div class="final">
         <center><a class="enlace-cen" href="">¿No tienes cuenta? Presiona aquí</a></center>
-        <input  class="boton-izq" type="button" value="inicio" name="sesion" onclick=""> 
+        <input  class="boton-izq" type="button" value="inicio" name="sesion" onclick="return soloLetras(event)"> 
     </div>
     <br>
 

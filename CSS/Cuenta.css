@@ -22,7 +22,8 @@
     width: 160px; 
 }
 .titulos{
-    margin-top: -20px;
+    margin-left: 45%;
+    margin-top: 20px;
 }
 
 
@@ -34,11 +35,17 @@
 }
 
 .av{
-    margin-top: -10%;
+    margin-top: -5%;
+    float: right;
+    margin-right: 50px;
 }
 
+.regresar {
+    margin-top: 23%;
+    float: left;
+}
 
-body,html{ height:100%; margin:0;}
+body,html{ height:75%; margin:0;}
     
 #conteiner{min-height:100%; }
  
