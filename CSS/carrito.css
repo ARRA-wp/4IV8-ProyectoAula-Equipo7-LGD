@@ -1,0 +1,58 @@
+.FC 
+{ 
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    float: left; 
+    width: 180px; 
+}
+
+.FLG{
+    border: 2px solid black; 
+    margin: 60px;
+    margin-left: 29.5%;
+    width: 250px;     
+}
+.LG 
+{ 
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    float: right;
+    width: 160px; 
+}
+.titulos{
+    margin-top: -20px;
+}
+
+.enlace-prin{
+    align-items: center;
+    padding: 10px; 
+    margin: 10px; 
+}
+.boton-izq{
+    padding: 10px; 
+    margin: 10px; 
+    float: right;
+
+}
+
+tbody{
+    text-align: right;
+}
+
+.productos, th, td{
+    padding: 1px;
+    border: 1px solid #aaa;
+    text-align: center;
+
+}
+
+
+footer {
+    margin-top: 50px;
+    background-color: red;
+    position: relative;
+    height: 110px;
+    width:100%;
+}

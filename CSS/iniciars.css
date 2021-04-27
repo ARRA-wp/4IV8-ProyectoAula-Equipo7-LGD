@@ -1,0 +1,67 @@
+.FC 
+{ 
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    float: left; 
+    width: 180px; 
+}
+
+.FLG{
+    border: 2px solid black; 
+    margin: 60px;
+    margin-left: 28.5%;
+    width: 250px; 
+}
+.LG 
+{ 
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    float: right;
+    width: 160px; 
+}
+.titulos{
+    margin-top: -20px;
+}
+
+
+.boton-izq{
+    padding: 10px; 
+    margin: 10px; 
+    float: right;
+
+}
+
+.boton-inicio{
+    text-align: center;
+}
+
+.final{
+    margin-top: 10%;
+    text-align: center;
+}
+
+body,html{ height:40%; margin:0;}
+    
+#conteiner{min-height:100%; }
+ 
+#content {
+    width: 80px;
+    margin:0 auto;
+    position: relative;
+    background: #CCC;
+}
+
+#footer {
+    width: auto;
+    height: 100px;
+    
+    margin-top:0%;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    background: #333;
+    border-top: 2px solid #000;
+ 
+}
