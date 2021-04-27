@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="Img/FC.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./CSS/Calculadora.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script language="JavaScript" type="text/JavaScript" src="./JS/Validar.js" ></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div>
+    <img class="FC" src="Img/FC.png" alt="Food">
+    <img class="FLG" src="Img/FoodContaine.png" alt="FoodC">
+    <img class="LG" src="Img/LGD.JPG" alt="LO">
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-input">
+
+        <table class="TE" align="center" border="0" >
+       <tr>
+           <td class="td_sup" >Introduce el Producto a Buscar : </td>
+           <td class="td_inf" ><input class="texto" type="text" name="Buscar-Producto"
+               onkeypress="return validarn(event)"></td>
+               <td><input class="button-agregar" name="Botón" type="button" value="Buscar" onclick="">
+               </td>
+       </tr>
+       </table>
+
+      
+
+       <br>
+       <br>
+       <br>
+       <br>
+
+
+</div>
+
+    <center>
+        <div class="titulos">
+            <h2>ADMINISTRADOR</h2>
+        </div>
+    </center>
+    <br>
+
+    <center>
+        <table class="productos">
+            <thead>
+                <tr class="grisf">
+                    <td class="celda-margen">Producto</td> 
+                    <td class="celda-margen">Azucares</td> 
+                    <td class="celda-margen">Calorias</td> 
+                    <td>Sodio</td> 
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="grisc">
+                    <td class="celda-margen">producto A</td>
+                    <td class="celda-margen">1</td>
+                    <td class="celda-margen">15</td>
+                    <td>15</td>
+                </tr>
+                <tr class="grisf">
+                    <td class="celda-margen">producto B</td>
+                    <td class="celda-margen">2</td>
+                    <td class="celda-margen">10</td>
+                    <td>20</td>
+                </tr>
+                <tr class="grisc">
+                    <td class="celda-margen">producto C</td>
+                    <td class="celda-margen">3</td>
+                    <td class="celda-margen">20</td>
+                    <td>60</td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+
+    <br><br><br>
+    
+    <br>
+    <br>
+    <div class="y">
+        <table class="tbotones" align="center">
+            <tr>
+                <td align="left">
+                    <input class="button-regresar" name="Botón" type="button" value="Cerrar Sesion" onclick="">
+                </td>
+                <td align="right">
+                    <input class="button-regresar" name="Botón" type="button" value="Actualizar" onclick="location.href='MySQLAdministrador.html'">
+                </td>
+                </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+    <footer class="pie">
+        <table>
+            <tr style="width: 90%;">
+                 
+             </tr>
+        </table>
+    </footer>
+</body>
+
+</html>

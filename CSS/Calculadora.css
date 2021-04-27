@@ -1,0 +1,79 @@
+.FC 
+{ 
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    float: left; 
+    width: 180px; 
+}
+
+.FLG{
+    border: 2px solid black; 
+    margin: 60px;
+    margin-left: 22.5%;
+    width: 250px;     
+}
+.LG 
+{ 
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    float: right;
+    width: 160px; 
+}
+.titulos{
+    margin-top: -20px;
+}
+
+.enlace-prin{
+    align-items: center;
+    padding: 10px; 
+    margin: 10px; 
+}
+.boton-izq{
+    padding: 10px; 
+    margin: 10px; 
+    float: right;
+
+}
+
+tbody{
+    text-align: right;
+}
+
+.productos{
+    border: 2px solid gray;
+    border-radius: 15px;
+    padding: 0px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.celda-margen{
+    border-right: 2px solid gray;
+}
+.grisf{
+    background-color: rgb(189, 189, 189);
+}
+
+td{
+    padding: 5px;
+}
+
+.tbotones{
+    width: 60%;
+}
+
+.texto{
+    border-radius: 5px;
+}
+
+footer{
+    width:100%;
+    height:100px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    background-color: red;
+    border-top: 2px solid #000;
+}
