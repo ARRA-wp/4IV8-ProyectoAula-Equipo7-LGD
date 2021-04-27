@@ -44,13 +44,15 @@
                 <div class="inicio">
 
                     <div class="links">
-                        <img src="./Img/Logo.png" width="180" height="165">
+                        <a href="cuenta.html"><img src="./Img/Logo.png" width="180" height="165">
+                        </a>
+
 
                         <div id="header">
                             <nav>
                                 <!-- Aqui estamos iniciando la nueva etiqueta nav -->
                                 <ul class="nav">
-                                    <li><a href="index.html" class="active" style="color:#FFFF" ;>PRINCIPAL </a></li>
+                                    <li><a href="index.html" style="color:#FFFF" ;>PRINCIPAL </a></li>
                                     <li><a href="Conocenos.html" style="color:#FFFF" ;>CONTACTO</a></li>
                                 </ul>
                             </nav><!-- Aqui estamos cerrando la nueva etiqueta nav -->
@@ -63,77 +65,78 @@
             </figure>
         </header>
     </div>
+    <div class="Elementos-de-conocenos">
+        <div class="y">
 
-    <div class="y">
+            <p class="pAdmin">Administrador</p>
+            </input>
+            <input name="Botón" type="button" value="Cerrar Sesión">
 
-        <p class="pAdmin">Administrador</p>
-        </input>
-        <input name="Botón" type="button" value="Cerrar Sesión">
+        </div>
 
-    </div>
+        <br>
+        <br>
+        <br>
 
-    <br>
-    <br>
-    <br>
+        <div class="container-input">
 
-    <div class="container-input">
+            <table class="TE" align="center" border="0">
+                <tr>
+                    <td class="td_sup">Introduce el Producto a Buscar : </td>
+                    <td class="td_inf"><input type="text" name="Buscar-Producto" onkeypress="return validarp(event)">
+                    </td>
+                    <td><input class="button-agregar" name="Botón" type="button" value="Buscar" onclick="">
+                    </td>
+                </tr>
+            </table>
 
-        <table class="TE" align="center" border="0">
-            <tr>
-                <td class="td_sup">Introduce el Producto a Buscar : </td>
-                <td class="td_inf"><input type="text" name="Buscar-Producto" onkeypress="return validarp(event)"></td>
-                <td><input class="button-agregar" name="Botón" type="button" value="Buscar" onclick="">
-                </td>
-            </tr>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+        </div>
+
+        <table align="center" border="10" class="tabla-Producto">
+            <thead>
+                <tr>
+
+                    <th>ID_Producto</th>
+                    <th>Producto</th>
+                    <th>Calorias</th>
+                    <th>Azucares</th>
+                    <th>sodio</th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+
+                    <td><input type="text" name="Id_Produi" id="Id_Pro" readonly class="input_Producto"></td>
+                    <td><input type="text" name="Producti" id="Productoi" readonly class="input_Producto"></td>
+                    <td><input type="text" name="Caloriai" id="Caloriasi" readonly class="input_Producto"></td>
+                    <td><input type="text" name="Azucari" id="Azucaresi" readonly class="input_Producto"></td>
+                    <td><input type="text" name="Sodi" id="Sodioi" readonly class="input_Producto"></td>
+
+
+                </tr>
+
+            </tbody>
+
+
         </table>
 
         <br>
         <br>
         <br>
         <br>
-
-
+        <div class="y">
+            <input class="button-regresar" name="Botón" type="button" value="Regresar"
+                onclick="location.href='MySQLAdministrador.html'">
+        </div>
     </div>
-
-    <table align="center" border="10" class="tabla-Producto">
-        <thead>
-            <tr>
-
-                <th>ID_Producto</th>
-                <th>Producto</th>
-                <th>Calorias</th>
-                <th>Azucares</th>
-                <th>sodio</th>
-
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-
-                <td><input type="text" name="Id_Produi" id="Id_Pro" readonly class="input_Producto"></td>
-                <td><input type="text" name="Producti" id="Productoi" readonly class="input_Producto"></td>
-                <td><input type="text" name="Caloriai" id="Caloriasi" readonly class="input_Producto"></td>
-                <td><input type="text" name="Azucari" id="Azucaresi" readonly class="input_Producto"></td>
-                <td><input type="text" name="Sodi" id="Sodioi" readonly class="input_Producto"></td>
-
-
-            </tr>
-
-        </tbody>
-
-
-    </table>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="y">
-        <input class="button-regresar" name="Botón" type="button" value="Regresar"
-            onclick="location.href='MySQLAdministrador.html'">
-    </div>
-
 
 </body>
 <footer class="pie">

@@ -14,11 +14,23 @@
     background-color: #F4F4F4;
    
 }
+
 .Elementos section{
    
     margin: 2rem;
 }
 
+.cuenta{
+    /* border: 5px solid #020202;*/
+     border-radius: 10px;
+     margin: 5rem;
+     background-color: #F4F4F4;
+    
+}
+.cuenta section{
+    
+     margin: 2rem;
+ }
 .Elementos-de-conocenos{
     border-radius: 5px;
     margin: 5rem;

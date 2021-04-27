@@ -30,6 +30,15 @@
 
 }
 
+
+.cuenta{
+    border-radius: 0px;
+    margin: 0rem ;
+    background-color: #F4F4F4;
+    font-family: 'Cairo', sans-serif;
+
+}
+
 .titulo{
     
     font-family: 'Orelega One', cursive;
@@ -41,6 +50,11 @@
 .links{
     font-family: 'Coda Caption', sans-serif;
    
+}
+.cuenta header{
+    background: #F4F4F4;
+    /*Barra de menu*/
+    
 }
 
 header{
