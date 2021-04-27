@@ -1,0 +1,63 @@
+
+*{
+    padding:0;
+    margin:0;
+    color:#030303;
+    text-align: center;
+}
+
+
+.Elementos{
+   /* border: 5px solid #020202;*/
+    border-radius: 10px;
+    margin: 5rem;
+    background-color: #F4F4F4;
+   
+}
+.Elementos section{
+   
+    margin: 2rem;
+}
+
+.Elementos-de-conocenos{
+    border-radius: 5px;
+    margin: 5rem;
+    background-color: #F4F4F4;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size:.9em;
+    
+}
+.Elementos-de-conocenos section{
+    margin: 5rem;
+}
+.Elementos-nuestros-productos{
+    border-radius: 15px;
+    margin: 5rem;
+    background-color: #F4F4F4;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size:.9em;
+   
+}
+
+.Elementos-contacto{
+    border-radius: 15px;
+    margin: 5rem;
+    background-color: #f4f4f4;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size:.9em;
+   
+}
+
+.Integrantes{
+    border:5px solid #F4F4F4;
+    border-radius: 0px;
+    margin: 5rem ;
+    background-color: #F4F4F4;
+    width: 85%;
+    /*ancho*/
+    display: inline-block;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size:.9em;
+    
+}
+
