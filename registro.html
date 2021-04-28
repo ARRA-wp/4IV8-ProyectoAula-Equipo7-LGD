@@ -6,7 +6,7 @@
   <link rel="shortcut icon" href="Img/Icono.jpeg" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LGD Principal </title>
+  <title>Iniciar sesión </title>
   <link rel="stylesheet" href="./CSS/texto.css">
   <link rel="stylesheet" href="./CSS/menu.css">
   <link rel="stylesheet" href="./CSS/Animacion.css">
@@ -25,7 +25,7 @@
 
 <body>
   <div class="Z">
-    <h1 id="heading" style="text-align:left" ;> . LGD -Registrar-</h1>
+    <h1 id="heading" style="text-align:left" ;> . LGD -Iniciar sesión-</h1>
   </div>
 
 
@@ -48,26 +48,24 @@
                 <ul class="nav">
                   <li><a href="index.html" style="color:#FFFF" ;>PRINCIPAL </a></li>
                   <li><a href="Conocenos.html" style="color:#FFFF" ;>CONTACTO</a></li>
+                  <li><a href="registro.html" class="active" style="color:#FFFF" ;>INICIAR SESIÓN </a></li>
                 </ul>
               </nav><!-- Aqui estamos cerrando la nueva etiqueta nav -->
             </div>
           </div>
         </div>
       </nav>
-      <figure>
-        <img src="./Img/Frutas.png">
-      </figure>
+      <a href="MySQLAdministrador.html">
+        <figure>
+          <img src="./Img/Frutas.png">
+        </figure>
+      </a>
     </header>
   </div>
   <!--menú-->
   <div class="Elementos-de-conocenos">
     <div class="container">
-      
-      <h3>Correo electrónico</h3>
-      <div class="problema-content">
-        <input type="text" class="problema-input" placeholder="Ingresa las palabras, recuerda usar espacios"
-          id="p1-input">
-      </div>
+
       <br>
       <h3>Usuario</h3>
       <div class="problema-content">
@@ -82,13 +80,22 @@
           id="p1-input">
 
         <br>
+        <br>
+        <p>¿No tienes cuenta?<a href="sincuenta.html">Ingresa Aqui</a></p>
+        
+        <br>
+        <a href="index.html"><button type="button" class="problema-button" style="margin-top: 1rem;"
+            onclick="problema1()">Iniciar</button>
+        </a>
 
-        <button type="button" class="problema-button" style="margin-top: 1rem;" onclick="problema1()">Registrar</button>
-
+        
+<br>
+          <input type="button" value="Administrador" onclick="location.href='MySQLAdministrador.html'">
+      
       </div>
     </div>
   </div>
-  
+
   <br>
   <div class="footer">
     <br>
@@ -102,7 +109,7 @@
       <ul>
         <li><a href="./index.html">PRINCIPAL</a></li>
 
-        <li><a href="./conocenos.html">CONOCENOS</a></li>
+        <li><a href="./Conocenos.html">CONOCENOS</a></li>
 
         <li><a href="./carrito.html">CARRITO</a></li>
 
