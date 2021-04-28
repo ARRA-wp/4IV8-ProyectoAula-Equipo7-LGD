@@ -1,59 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="IMG/FC.png" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="CSS/iniciars.css">
-    <script language="JavaScript" type="text/JavaScript"src="./JS/validar.js"></script>   
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Sesión</title>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="Img/Icono.jpeg" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LGD Principal </title>
+  <link rel="stylesheet" href="./CSS/texto.css">
+  <link rel="stylesheet" href="./CSS/menu.css">
+  <link rel="stylesheet" href="./CSS/Animacion.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Orelega+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
+  <style>
+    #heading {
+      color: #f4f4f4;
+    }
+  </style>
 </head>
+
 <body>
-    <img class="FC" src="IMG/FC.png" alt="Food">
-    <img class="FLG" src="IMG/FoodContaine.png" alt="FoodC">
-    <img class="LG" src="IMG/LGD.JPG" alt="LO">
+  <div class="Z">
+    <h1 id="heading" style="text-align:left" ;> . LGD -Registrar-</h1>
+  </div>
 
-    <br>
 
-    <center>
-        <div class="titulos">
-            <h2>Inicio de Sesión</h2>
+  <div class="Elementos">
+    <header>
+      <nav>
+        <div class="titulo">
+          <center style="color:#302022" ;> FOOD CONTAINER </center>
         </div>
-    </center>
-    <br>
+        <div class="inicio">
 
-    <center>
-       <table>
-        <tr>
-            <td class="sup">Nombre:</td>
-            <td class="inf"><input type="text" name="nombre" size="12" ></td>
-        </tr>
-        <tr>
-            <td class="sup">Contraseña:</td>
-            <td class="inf"><input type="password" name="contra" size="12" ></td>
-        </tr>
-       </table>
-    </center>
+          <div class="links">
+            <a href="cuenta.html"><img src="./Img/Logo.png" width="180" height="165">
+            </a>
 
 
-    <div class="final">
-        <center><a class="enlace-cen" href="">¿No tienes cuenta? Presiona aquí</a></center>
+            <div id="header">
+              <nav>
+                <!-- Aqui estamos iniciando la nueva etiqueta nav -->
+                <ul class="nav">
+                  <li><a href="index.html" style="color:#FFFF" ;>PRINCIPAL </a></li>
+                  <li><a href="Conocenos.html" style="color:#FFFF" ;>CONTACTO</a></li>
+                </ul>
+              </nav><!-- Aqui estamos cerrando la nueva etiqueta nav -->
+            </div>
+          </div>
+        </div>
+      </nav>
+      <figure>
+        <img src="./Img/Frutas.png">
+      </figure>
+    </header>
+  </div>
+  <!--menú-->
+  <div class="Elementos-de-conocenos">
+    <div class="container">
+      
+      <h3>Usuario</h3>
+      <div class="problema-content">
+        <input type="text" class="problema-input" placeholder="Ingresa las palabras, recuerda usar espacios"
+          id="p1-input">
+      </div>
+      <br>
+      <h3>Contraseña</h3>
+      <div class="problema-content">
+        <input type="text" class="problema-input" placeholder="Ingresa las palabras, recuerda usar espacios"
+          id="p1-input">
+
+      </div>
+      <br>
+      
+        
+<div class="final">
+        <center><a class="enlace-cen" href="Registro.html">¿No tienes cuenta? Presiona aquí</a></center>
         <input  class="boton-izq" type="button" value="inicio" name="sesion" onclick="return soloLetras(event)"> 
     </div>
     <br>
 
-    <div id="conteiner">
-        
-        <div id="content">
-            <div id="lateral">
-                <div id="favorites"></div>
-                <div id="lateral-publi"></div>
-            </div>
-        </div> 
-        
+        <br>
+
+        <button type="button" class="problema-button" style="margin-top: 1rem;" onclick="problema1()">Registrar</button>
+
+      </div>
     </div>
-    <div id="footer"></div>
+  </div>
+  
+  <br>
+  <div class="footer">
+    <br>
+    <h1 style="text-align:center" ;> LGD</h1>
+    <p>
+      .................................................................................................................................................................................................................................................................................................................................
+    </p>
+
+    <div class="enlaces-de-footer">
+      <br>
+      <ul>
+        <li><a href="./index.html">PRINCIPAL</a></li>
+
+        <li><a href="./conocenos.html">CONOCENOS</a></li>
+
+        <li><a href="./carrito.html">CARRITO</a></li>
+
+      </ul>
+      <br>
+
+      <br>
+    </div>
+
+    <p>
+      .................................................................................................................................................................................................................................................................................................................................
+    </p>
+    <br><br>
+  </div>
 </body>
 
 </html>
