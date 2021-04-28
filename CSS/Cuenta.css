@@ -1,0 +1,80 @@
+.FC 
+{ 
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    float: left; 
+    width: 180px; 
+}
+
+.FLG{
+    border: 2px solid black; 
+    margin: 60px;
+    margin-left: 28.5%;
+    width: 250px; 
+}
+.LG 
+{ 
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    float: right;
+    width: 160px; 
+}
+.titulos{
+    /*
+    margin-left: 45%;
+    margin-top: 20px;
+*/
+text-align: center;
+}
+
+.Datos{
+    text-align: center;
+    justify-content: center;
+}
+
+.seccion{
+
+    justify-content: center;
+}
+
+.Datosn{
+    text-align: center;
+
+}
+/*
+.imavatar{
+ text-align: right;
+
+}*/
+
+.boton-izq{
+    padding: 10px; 
+    margin: 10px; 
+    float: right;
+
+}
+
+.av{
+    margin-top: -5%;
+    float: right;
+    margin-right: 50px;
+}
+
+.regresar {
+    margin-top: 23%;
+    float: left;
+}
+
+body,html{ height:75%; margin:0;}
+    
+#conteiner{min-height:100%; }
+ 
+#content {
+    width: 80px;
+    margin:0 auto;
+    position: relative;
+    background: #CCC;
+}
+

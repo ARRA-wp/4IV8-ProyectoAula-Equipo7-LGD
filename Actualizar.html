@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="Img/Icono.jpeg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualizar Productos</title>
+
+    <link rel="stylesheet" href="./CSS/imagen.css">
+    <link rel="stylesheet" href="./CSS/ChecarRAdmin.css">
+    <link rel="stylesheet" href="./CSS/Agregar.css">
+    <script src="JS/Validar.js"></script>
+    <link rel="stylesheet" href="./CSS/texto.css">
+    <link rel="stylesheet" href="./CSS/menu.css">
+    <link rel="stylesheet" href="./CSS/Animacion.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Orelega+One&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
+    <style>
+        #heading {
+            color: #f4f4f4;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Z">
+        <h1 id="heading" style="text-align:left" ;> . LGD -Administrador-</h1>
+    </div>
+
+
+    <div class="Elementos">
+        <header>
+            <nav>
+                <div class="titulo">
+                    <center style="color:#302022" ;> FOOD CONTAINER </center>
+                </div>
+                <div class="inicio">
+
+                    <div class="links">
+                        <a href="cuenta.html"><img src="./Img/Logo.png" width="180" height="165">
+                        </a>
+                        <div id="header">
+                            <nav>
+                                <!-- Aqui estamos iniciando la nueva etiqueta nav -->
+                                <ul class="nav">
+                                    <li><a href="index.html" class="active" style="color:#FFFF" ;>PRINCIPAL </a></li>
+                                    <li><a href="Conocenos.html" style="color:#FFFF" ;>CONTACTO</a></li>
+                                </ul>
+                            </nav><!-- Aqui estamos cerrando la nueva etiqueta nav -->
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <figure>
+                <img src="./Img/Frutas.png">
+            </figure>
+        </header>
+    </div>
+    <!--menú-->
+    <div class="Elementos-de-conocenos">
+
+        <div class="container-input">
+
+            <table class="TE" align="center" border="0">
+                <tr>
+                    <td class="td_sup">Introduce el Producto a Buscar : </td>
+                    <td class="td_inf"><input type="text" name="Buscar-Producto" onkeypress="return validarn(event)">
+                    </td>
+                    <td><input class="button-agregar" name="Botón" type="button" value="Buscar" onclick="">
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+        </div>
+
+        <table align="center" border="10" class="tabla-Producto">
+            <thead>
+                <tr>
+
+                    <th>Producto</th>
+                    <th>Calorias</th>
+                    <th>Azucares</th>
+                    <th>sodio</th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+
+                    <td><input type="text" name="Id_Produi" id="Id_Pro" readonly class="input_Producto"></td>
+                    <td><input type="text" name="Producti" id="Productoi" readonly class="input_Producto"></td>
+                    <td><input type="text" name="Caloriai" id="Caloriasi" readonly class="input_Producto"></td>
+                    <td><input type="text" name="Azucari" id="Azucaresi" readonly class="input_Producto"></td>
+                    <td><input type="text" name="Sodi" id="Sodioi" readonly class="input_Producto"></td>
+
+                </tr>
+
+            </tbody>
+
+
+        </table>
+
+        <br>
+        <br>
+
+        <p class="Text-Actualizar">Introduce los nuevos datos</p>
+
+        <table align="center" border="10" class="tabla-Producto">
+            <thead>
+                <tr>
+
+                    <th>ID_Producto</th>
+                    <th>Producto</th>
+                    <th>Calorias</th>
+                    <th>Azucares</th>
+                    <th>Sodio</th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+
+                    <td><input type="text" name="Id_Produi" id="Id_Pro" readonly class="input_Producto"></td>
+                    <td><input type="text" name="Producti" id="Productoi" class="input_Producto"
+                            onkeypress="return validarp(event)"></td>
+                    <td><input type="text" name="Caloriai" id="Caloriasi" class="input_Producto"
+                            onkeypress="return validarn(event)"></td>
+                    <td><input type="text" name="Azucari" id="Azucaresi" class="input_Producto"
+                            onkeypress="return validarn(event)"></td>
+                    <td><input type="text" name="Sodi" id="Sodioi" class="input_Producto"
+                            onkeypress="return validarn(event)"></td>
+
+                </tr>
+
+            </tbody>
+
+
+        </table>
+
+        <br>
+        <br>
+        <div class="cuenta">
+            
+            <input class="button-regresar" name="Botón" type="button" value="Actualizar" onclick="">
+            <br>
+            <br>
+            <input name="Botón" type="button" value="Cerrar Sesión">
+
+            <input class="button-regresar" name="Botón" type="button" value="Regresar"
+            onclick="location.href='MySQLAdministrador.html'">
+        </div>
+    </div>
+    </div>
+
+    <div class="footer">
+        <br>
+        <h1 style="text-align:center" ;> LGD</h1>
+        <p>.................................................................................................................................................................................................................................................................................................................................
+        </p>
+
+        <div class="enlaces-de-footer">
+            <br>
+            <ul>
+                <li><a href="./index.html">PRINCIPAL</a></li>
+
+                <li><a href="./conocenos.html">CONOCENOS</a></li>
+
+                <li><a href="./carrito.html">CARRITO</a></li>
+
+            </ul>
+            <br>
+
+            <br>
+        </div>
+
+        <p>
+            .................................................................................................................................................................................................................................................................................................................................
+        </p>
+        <br><br>
+    </div>
+
+</body>
+
+</html>
