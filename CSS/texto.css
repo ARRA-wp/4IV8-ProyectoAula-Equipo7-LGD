@@ -72,4 +72,23 @@
     font-size:.9em;
     
 }
+.footer{
+    border-radius: 0px;
+    margin: 0rem;
+    background-color: #97B7AD;
+}
+
+.enlaces-de-footer{
+    border-radius: 0px;
+    margin: 0rem ;
+    
+    font-family: 'Hammersmith One', sans-serif;
+    font-size:1em;
+    align-items:center;
+    justify-content: space-between;
+    
+    align-items:center;
+  
+
+}
 
