@@ -10,8 +10,8 @@
 .FLG{
     border: 2px solid black; 
     margin: 60px;
-    margin-left: 27.8%;
-    width: 250px; 
+    margin-left: 29.5%;
+    width: 250px;     
 }
 .LG 
 { 
@@ -25,7 +25,7 @@
     margin-top: -20px;
 }
 
-.enlace-cen{
+.enlace-prin{
     align-items: center;
     padding: 10px; 
     margin: 10px; 
@@ -36,3 +36,15 @@
     float: right;
 
 }
+
+tbody{
+    text-align: right;
+}
+
+.productos, th, td{
+    padding: 1px;
+    border: 1px solid #aaa;
+    text-align: center;
+
+}
+
