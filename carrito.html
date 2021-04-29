@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="IMG/Icono.jpeg" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./CSS/carrito.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./CSS/imagen.css">
+  <link rel="stylesheet" href="./CSS/Cuenta.css">
+  <link rel="stylesheet" href="./CSS/ChecarRAdmin.css">
+  <link rel="stylesheet" href="./CSS/Agregar.css">
+  <script src="JS/Validar.js"></script>
+  <script src="JS/carrito.js"></script>
+  <link rel="stylesheet" href="./CSS/texto.css">
+  <link rel="stylesheet" href="./CSS/menu.css">
+  <link rel="stylesheet" href="./CSS/Animacion.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Orelega+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
+  <style>
+    #heading {
+      color: #f4f4f4;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="Z">
+    <h1 id="heading" style="text-align:left" ;> . LGD -Calculadora-</h1>
+  </div>
+
+
+  <div class="Elementos">
+    <header>
+      <nav>
+        <div class="titulo">
+          <center style="color:#302022" ;> FOOD CONTAINER </center>
+        </div>
+        <div class="inicio">
+
+          <div class="links">
+
+            <a href="cuenta.html"><img src="./Img/Logo.png" width="180" height="165">
+            </a>
+            <div id="header">
+              <nav>
+                <!-- Aqui estamos iniciando la nueva etiqueta nav -->
+                <ul class="nav">
+                  <a href="index.html" > <button class="btn success"> PRINCIPAL </button></a>
+                      <a href="conocenos.html" > <button class="btn info">CONTACTO</button></a>
+                      <a href="registro.html" ><button class="btn warning">INICIAR SESIÓN</button></a>
+                </ul>
+              </nav><!-- Aqui estamos cerrando la nueva etiqueta nav -->
+            </div>
+          </div>
+        </div>
+      </nav>
+      <figure>
+        <img src="./Img/Frutas.png">
+      </figure>
+    </header>
+  </div>
+  <!--menu -->
+
+  <div class="Elementos-de-conocenos">
+
+    <center>
+      <table class="productos">
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Calorias</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td colspan="3">Total</td>
+            <td><input type="text" name="SumaTotal" id="Suma_total" readonly="readonly" onkeypress="return validarn(event)"  ></td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td>Producto A</td>
+            <td><input type="text" name="CantidadA" id="CantA" onkeypress="return validarn(event)"  ></td>
+            <td><input type="text" name="CaloriasA" id="CalA" onkeypress="return validarn(event)"  ></td>
+            <td><input type="text" name="SumaA" id="Suma_A" readonly="readonly" onkeypress="return validarn(event)"  ></td>
+          </tr>
+          <tr>
+            <td>Producto B</td>
+            <td><input type="text" name="CantidadB" id="Cant_B" onkeypress="return validarn(event)"  ></td>
+            <td><input type="text" name="CaloriasB" id="Cal_B" onkeypress="return validarn(event)"  ></td>
+            <td><input type="text" name="SumaB" id="Suma_B" readonly="readonly" onkeypress="return validarn(event)"  ></td>
+          </tr>
+          <tr>
+            <td>Producto C</td>
+            <td><input type="text" name="CantidadC" id="Cant_C" onkeypress="return validarn(event)"  ></td>
+            <td><input type="text" name="CaloriasC" id="Cal_C" onkeypress="return validarn(event)"  ></td>
+            <td><input type="text" name="SumaC" id="Suma_C" readonly="readonly"  onkeypress="return validarn(event)"  ></td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+  </div>
+
+
+  <br>
+  <div class="cuenta">
+    <input type="button" value="calcular" name="sesion" onclick="suma()">
+  </div>
+
+  <!--
+  <div class="Elementos-de-conocenos">
+    <center><a class="enlace-prin" href="">Sí deseas agregar más alimentos, oprima aquí</a></center>
+  </div>
+  <br>
+  -->
+  <div class="footer">
+    <br>
+    <h1 style="text-align:center" ;> LGD</h1>
+    <p>
+      .................................................................................................................................................................................................................................................................................................................................
+    </p>
+
+    <div class="enlaces-de-footer">
+      <br>
+      <ul>
+        <li><a href="./index.html">PRINCIPAL</a></li>
+
+        <li><a href="./conocenos.html">CONOCENOS</a></li>
+
+        <li><a href="./carrito.html">CARRITO</a></li>
+
+      </ul>
+      <br>
+
+      <br>
+    </div>
+
+    <p>
+      .................................................................................................................................................................................................................................................................................................................................
+    </p>
+    <br><br>
+  </div>
+</body>
+
+</html>
