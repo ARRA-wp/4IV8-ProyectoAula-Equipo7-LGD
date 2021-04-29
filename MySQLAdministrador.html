@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./CSS/Eliminar.css">
   <link rel="stylesheet" href="./CSS/texto.css">
   <link rel="stylesheet" href="./CSS/menu.css">
+  <script src="JS/Validar.js"></script>
   <link rel="stylesheet" href="./CSS/Animacion.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Orelega+One&display=swap" rel="stylesheet">
@@ -49,9 +50,9 @@
               <nav>
                 <!-- Aqui estamos iniciando la nueva etiqueta nav -->
                 <ul class="nav">
-                  <li><a href="index.html" style="color:#FFFF" ;>PRINCIPAL </a></li>
-                  <li><a href="Conocenos.html" style="color:#FFFF" ;>CONTACTO</a></li>
-                  <li><a href="registro.html" style="color:#FFFF" ;>INICIAR SESIÓN </a></li>
+                  <a href="index.html"> <button class="btn success"> PRINCIPAL </button></a>
+                  <a href="conocenos.html"> <button class="btn info">CONTACTO</button></a>
+                  <a href="registro.html"><button class="btn warning">INICIAR SESIÓN</button></a>
                 </ul>
               </nav><!-- Aqui estamos cerrando la nueva etiqueta nav -->
             </div>
@@ -63,41 +64,214 @@
       </figure>
     </header>
   </div>
-  <!-- menú -->
-  <div class="Elementos-de-conocenos">
-    
-   
-    <p class="y">&nbsp;</p>
-    <p class="y">&nbsp; </p>
-    <div>
-      <div>
-        <table width="880" border="0" align="center">
-          <tr>
-            <td width="179" class="p"><img src="Img/updateSQL.jpg" width="173" height="129"></td>
-            <td width="35">&nbsp;</td>
-            <td width="203" class="p"><img src="Img/InsertarSQL.jpg" width="188" height="120"></td>
-            <td width="35">&nbsp;</td>
-            <td width="179" class="p"><img src="Img/UsuariosSQL.png" width="174" height="110"></td>
-            <td width="34">&nbsp;</td>
-            <td width="185" class="p"><img src="Img/EliminarSQL.jpg" width="166" height="118"></td>
-          </tr>
-          <tr>
-            <td class="u"><input type="button" value="Actualizar" onclick="location.href='Actualizar.html'"></td>
-            <td>&nbsp;</td>
-            <td class="y"><input type="button" value="Agregar" onclick="location.href='AgregarSQL.html'"></td>
-            <td>&nbsp;</td>
-            <td class="o"><input type="button" value="Registro Usuarios" onclick="location.href='ChecarRegistro.html'">
-            </td>
-            <td>&nbsp;</td>
-            <td class="t"><input type="button" value="Eliminar" onclick="location.href='EliminarSQL.html'"></td>
-          </tr>
+  <!-- Para quitar los colores de las divisiones, borrar el style, era para ver los espacios :3 -->
+  <!-- Inicio Agregar -->
+  <div class="Elementos-de-conocenos" style="background-color: forestgreen;">
+    <section>
+      <article>
+        <hr color="#LLLL" size=5>
+        <br>
+        <h1 style="text-align:center" ;>Agregar a la Base de Datos</h1>
+        <br>
+        <hr color="#LLLL" size=5>
+        <!--linea-->
+        <br>
+        <h3 style="text-align:justify" ;>
+          Introduce el Producto a Agregar</h3>
+      </article>
+    </section>
+
+    <section>
+      <article>
+        <table align="center" border="10" class="tabla-Producto">
+          <thead>
+            <tr>
+
+
+              <th>Producto</th>
+              <th>Calorias</th>
+              <th>Cantidad</th>
+
+
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td><input type="text" name="Producti" id="Productoi" readonly class="input_Producto"></td>
+              <td><input type="text" name="Caloriai" id="Caloriasi" readonly class="input_Producto"></td>
+              <td><input type="text" name="Cantidi" id="Azucaresi" readonly class="input_Producto"></td>
+
+
+
+            </tr>
+
+          </tbody>
+
+
         </table>
-      </div>
-    </div>
+        <br>
+        <span>Agregado con exito</span>
+        <br>
+
+        <h3 style="text-align:center" ;>
+          <input class="button-agregar" name="Botón" type="button" value="Agregar" onclick="">
+        </h3>
+        <br>
+        <figure>
+
+        </figure>
+      </article>
+    </section>
+  </div>
+  <!-- Fin Agregar -->
+
+  <!-- Inicio Actualizar -->
+  <div class="Elementos-de-conocenos" style="background-color: dodgerblue;">
+    <section>
+      <article>
+        <hr color="#LLLL" size=5>
+        <br>
+        <h1 style="text-align:center" ;>Actualizar Alimentos</h1>
+        <br>
+        <hr color="#LLLL" size=5>
+        <!--linea-->
+        <br>
+        <h3 style="text-align:justify" ;>
+          Introduce el ID Producto a Localizar: <input type="text" name="Buscar-Producto"
+            onkeypress="return validarn(event)"></h3>
+      </article>
+    </section>
+
+    <section>
+      <article>
+        <h1 style="text-align:justify" ;> Y ahora sus nuevos atributos: </h1>
+        <br>
+        <table align="center" border="10" class="tabla-Producto">
+          <thead>
+            <tr>
+
+
+              <th>Producto</th>
+              <th>Calorias</th>
+              <th>Cantidad</th>
+
+
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td><input type="text" name="Producti" id="Productoi" onkeypress="return validarp(event)"
+                  class="input_Producto"></td>
+              <td><input type="text" name="Caloriai" id="Caloriasi" onkeypress="return validarn(event)"
+                  class="input_Producto"></td>
+              <td><input type="text" name="Cantidi" id="Azucaresi" onkeypress="return validarn(event)"
+                  class="input_Producto"></td>
+
+
+
+            </tr>
+
+          </tbody>
+
+
+        </table>
+        <br>
+
+        <h3 style="text-align:center" ;>
+          <input class="button-agregar" name="Botón" type="button" value="Actualizar" onclick="">
+          <br>
+          <br>
+          <span>Actualizado con exito</span>
+        </h3>
+        <br>
+        <figure>
+        </figure>
+      </article>
+    </section>
   </div>
 
+  <!-- Fin Actualizar -->
 
-  <a href="registro.html"><input name="Botón" type="button" value="Cerrar Sesión">
+  <!-- Inicio Eliminar -->
+  <div class="Elementos-de-conocenos" style="background-color: darkorange;">
+    <section>
+      <article>
+        <hr color="#LLLL" size=5>
+        <br>
+        <h1 style="text-align:center" ;>Eliminar Alimento/Usuarios</h1>
+        <br>
+        <hr color="#LLLL" size=5>
+        <!--linea-->
+        <br>
+        <h3 style="text-align:justify" ;>
+          Introduce el ID Producto a Eliminar: <input type="text" name="Buscar-Producto"
+            onkeypress="return validarn(event)"></h3>
+      </article>
+    </section>
+
+    <section>
+      <article>
+        <h1 style="text-align:center" ;> <input class="button-agregar" name="Botón" type="button" value="Eliminar"
+            onclick=""></h1>
+        <br>
+
+        <h3 style="text-align:center" ;>
+          <span>Eliminado con exito</span>
+        </h3>
+        <br>
+        <figure>
+
+        </figure>
+      </article>
+    </section>
+  </div>
+
+  <!-- Fin Eliminar -->
+
+  <!-- Inicio Revisar -->
+  <div class="Elementos-de-conocenos" style="background-color: crimson;">
+    <section>
+      <article>
+        <hr color="#LLLL" size=5>
+        <br>
+        <h1 style="text-align:center" ;>Registro Alimento/Usuario</h1>
+        <br>
+        <hr color="#LLLL" size=5>
+        <!--linea-->
+        <br>
+        <h3 style="text-align:justify" ;>
+          Selecciona que registro quieres checar.</h3>
+      </article>
+    </section>
+
+    <section>
+      <article>
+        <h3 style="text-align:center">
+
+          <input class="button-agregar" name="Botón" type="button" value="Usuarios" onclick="">
+          <input class="button-agregar" name="Botón" type="button" value="Alimentos" onclick="">
+        </h3>
+        <h1 style="text-align:center" ;> </h1>
+        <br>
+
+        <h3 style="text-align:center" ;>
+        </h3>
+        <br>
+        <figure>
+
+        </figure>
+      </article>
+    </section>
+  </div>
+
+  <!-- Fin Actualizar -->
+  <!-- menú -->
+
+
+
+
   <br><br>
   <div class="footer">
     <br>

@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="./CSS/ChecarRAdmin.css">
   <link rel="stylesheet" href="./CSS/Agregar.css">
   <script src="JS/Validar.js"></script>
+  <script src="JS/carrito.js"></script>
   <link rel="stylesheet" href="./CSS/texto.css">
   <link rel="stylesheet" href="./CSS/menu.css">
   <link rel="stylesheet" href="./CSS/Animacion.css">
@@ -53,9 +54,9 @@
               <nav>
                 <!-- Aqui estamos iniciando la nueva etiqueta nav -->
                 <ul class="nav">
-                  <li><a href="index.html" style="color:#FFFF" ;>PRINCIPAL </a></li>
-                  <li><a href="Conocenos.html" style="color:#FFFF" ;>CONTACTO</a></li>
-                  <li><a href="registro.html" style="color:#FFFF" ;>INICIAR SESIÓN </a></li>
+                  <a href="index.html" > <button class="btn success"> PRINCIPAL </button></a>
+                      <a href="conocenos.html" > <button class="btn info">CONTACTO</button></a>
+                      <a href="registro.html" ><button class="btn warning">INICIAR SESIÓN</button></a>
                 </ul>
               </nav><!-- Aqui estamos cerrando la nueva etiqueta nav -->
             </div>
@@ -84,27 +85,27 @@
         <tfoot>
           <tr>
             <td colspan="3">Total</td>
-            <td></td>
+            <td><input type="text" name="SumaTotal" id="Suma_total" readonly="readonly" onkeypress="return validarn(event)"  ></td>
           </tr>
         </tfoot>
         <tbody>
           <tr>
-            <td>producto A</td>
-            <td>2</td>
-            <td>12.25</td>
-            <td></td>
+            <td>Producto A</td>
+            <td><input type="text" name="CantidadA" id="CantA" onkeypress="return validarn(event)"  ></td>
+            <td><input type="text" name="CaloriasA" id="CalA" onkeypress="return validarn(event)"  ></td>
+            <td><input type="text" name="SumaA" id="Suma_A" readonly="readonly" onkeypress="return validarn(event)"  ></td>
           </tr>
           <tr>
-            <td>producto B</td>
-            <td>1</td>
-            <td>7.10</td>
-            <td></td>
+            <td>Producto B</td>
+            <td><input type="text" name="CantidadB" id="Cant_B" onkeypress="return validarn(event)"  ></td>
+            <td><input type="text" name="CaloriasB" id="Cal_B" onkeypress="return validarn(event)"  ></td>
+            <td><input type="text" name="SumaB" id="Suma_B" readonly="readonly" onkeypress="return validarn(event)"  ></td>
           </tr>
           <tr>
-            <td>producto C</td>
-            <td>3</td>
-            <td>2.20</td>
-            <td></td>
+            <td>Producto C</td>
+            <td><input type="text" name="CantidadC" id="Cant_C" onkeypress="return validarn(event)"  ></td>
+            <td><input type="text" name="CaloriasC" id="Cal_C" onkeypress="return validarn(event)"  ></td>
+            <td><input type="text" name="SumaC" id="Suma_C" readonly="readonly"  onkeypress="return validarn(event)"  ></td>
           </tr>
         </tbody>
       </table>
@@ -114,7 +115,7 @@
 
   <br>
   <div class="cuenta">
-    <input type="button" value="calcular" name="sesion" onclick="">
+    <input type="button" value="calcular" name="sesion" onclick="suma()">
   </div>
 
   <!--
