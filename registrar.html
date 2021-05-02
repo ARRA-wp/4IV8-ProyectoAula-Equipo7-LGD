@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="Img/Icono.jpeg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LGD Registrar </title>
+
+    <link rel="stylesheet" href="./CSS/estilo.css">
+    <link rel="stylesheet" href="./CSS/inicio.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Jost:wght@300;500;700;900&family=Merriweather:wght@400;700&family=Orelega+One&family=Podkova&family=Prata&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+
+    <div class="header">
+
+        <p></p>
+        <h2 style="text-align:left" ;> <span class="icon-price-tags"></span>FOOD CONTAINER </h2>
+
+    </div>
+
+    <div id="navbar">
+        <div id="navbar-right">
+
+            <a href="./cuenta.html"><span class="icon-spoon-knife"></span></a>
+            <a href="./index.html"><span class="icon-newspaper"></span></a>
+            <a href="./conocenos.html"><span class="icon-pushpin"></span>Acerca de </a>
+            <a class="active" href="./registrar.html"><span class="icon-user-plus"></span></a>
+
+        </div>
+    </div>
+
+    <div class="main-sinc">
+        <section>
+            <h2>Ingresa los siguientes datos</h2>
+            <div class="container">
+                <h3>Correo electrónico</h3>
+                <div class="problema-content">
+                    <input type="text" class="problema-input" placeholder="Ingresa las palabras, recuerda usar espacios"
+                        id="p1-input" onkeypress="return validare(event)">
+                </div>
+
+                <h3>Usuario</h3>
+                <div class="problema-content">
+                    <input type="text" class="problema-input" placeholder="Ingresa las palabras, recuerda usar espacios"
+                        id="p1-input">
+
+                </div>
+
+                <h3>Contraseña</h3>
+                <div class="problema-content">
+                    <input type="text" class="problema-input" placeholder="Ingresa las palabras, recuerda usar espacios"
+                        |1 id="p1-input">
+                </div>
+                <div class="botonuser">
+                    <a href="iniciarsesion.html"> <button type="button" class="problema-button"
+                            style="margin-top: 1rem;" onclick="problema1()"><span class="icon-user"></span> Ya tengo
+                            cuenta (Iniciar Sesión) </button>
+                    </a>
+                    <a href="index.html"> <button type="button" class="problema-button" style="margin-top: 1rem;"
+                            onclick="problema1()"><span class="icon-user-plus"></span> crear </button>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

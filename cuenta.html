@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="Img/Icono.jpeg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LGD Cuenta</title>
+
+    <link rel="stylesheet" href="./CSS/estilo.css">
+    <link rel="stylesheet" href="./CSS/inicio.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Jost:wght@300;500;700;900&family=Merriweather:wght@400;700&family=Orelega+One&family=Podkova&family=Prata&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+
+    <div class="header">
+
+        <p></p>
+        <h2 style="text-align:left" ;> <span class="icon-price-tags"></span>FOOD CONTAINER </h2>
+
+    </div>
+
+    <div id="navbar">
+        <div id="navbar-right">
+
+            <a class="active" href="./cuenta.html"><span class="icon-spoon-knife"></span></a>
+            <a href="./index.html"><span class="icon-newspaper"></span></a>
+            <a href="./conocenos.html"><span class="icon-pushpin"></span>Acerca de </a>
+            <a href="./registrar.html"><span class="icon-user-plus"></span></a>
+
+        </div>
+    </div>
+
+    <div class="sidenav">
+        <a href="./canastab.html"> <span class="icon-cart"></span> Canasta Básica</a>
+        <a href="./bebidas.html"> <span class="icon-glass"></span>Bebidas</a>
+        <a href="./snacks.html"> <span class="icon-pacman"></span>Snacks</a>
+        <article>
+            <a href="./registrar.html"><span class="icon-user-plus"></span>Registrate gratis</a>
+            <a href="./iniciarsesion.html"><span class="icon-user"></span>Inicia Sesión</a>
+        </article>
+
+
+    </div>
+
+    <div class="main">
+        <section>
+            <h3>Usuario</h3>
+            <nav>
+                <div class="cuenta">
+                    <section>
+                        <article>
+                            <table >
+                                <tr>
+                                    <td class="dato">Nombre:</td>
+                                    <td class="valor"><input type="text" name="nombre" id="cantidad" readonly
+                                            class="input_text">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dato">Edad:</td>
+                                    <td class="valor"><input type="text" name="edad" id="cantidad" readonly
+                                            class="input_text">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dato">Usuario:</td>
+                                    <td class="valor"><input type="text" name="usuario" id="cantidad" readonly
+                                            class="input_text">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dato">Correo electronico:</td>
+                                    <td class="valor"><input type="text" name="corre" id="cantidad" readonly
+                                            class="input_text">
+                                    </td>
+                                </tr>
+                            </table>
+                        </article>
+                        <article>
+                            <table>
+                                <tr>
+                                    <td align="center" class="dato">
+
+                                        <h3>Tu avatar</h3>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="AV"><img src="Img/avatar.png" width="180" height="165" alt=""></td>
+                                </tr>
+
+                                <tr>
+                                    <td align="center" class="ava"><input type="button" name="avatar"
+                                            value="Cambiar avatar" onclick="">
+                                    </td>
+
+                                </tr>
+                            </table>
+                        </article>
+                        <br><br><br>
+                        <br><br>
+                    </section>
+
+
+                </div>
+
+
+            </nav>
+        </section>
+        
+
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
