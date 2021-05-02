@@ -1,0 +1,296 @@
+/*aqui esta el diseño de las paginas index.hmtl*/
+/*menu*/
+
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.header {
+    background-color: #DA5C62;
+    padding: 40px;
+    font-family: 'Prata', serif;
+    font-size:1.3em;
+}
+.header img{
+   
+    width: 12rem;
+    /*tamaño */
+}
+  
+#navbar {
+    overflow: hidden;
+    background-color: #DF3243 ;
+}
+  
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em;
+   
+    
+}
+#navbar a, samp{
+    font-family: 'Jost', sans-serif;
+}
+
+#navbar a:hover {
+    background-color: #DA5C62;
+    color: black;
+}
+  
+#navbar a.active {
+    background-color: #DA5C62;
+    color: white;
+    
+}
+  
+
+.content {
+    padding: 1rem;
+}
+  
+.sticky {
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.sticky + .content {
+    padding-top: 60px;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #DF3243;
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: 'Jost', sans-serif;
+}
+.sidenav article{
+    font-family: 'Jost', sans-serif;
+    font-size: .7em;
+}
+  
+.sidenav a, button{
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    font-size: 1.1em;
+}
+ 
+.botonuser{
+    margin-right: 50px;
+}
+.botonuser a, button{
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    font-size: 1.1em;
+   
+}
+  
+.sidenav a:hover {
+    background-color: #DA5C62;
+    color: black;
+}
+
+
+.main section{
+    margin: 5rem;
+}
+.main {
+    margin-right: 250px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    font-family: 'Prata', serif;
+    font-size:.5em;
+}
+.main h1{
+    font-size:2.5em;
+}
+.main h2{
+    font-size:1.8em;
+}
+.main h4{
+    font-size:1.3em;
+   
+}
+.main h5{
+    font-size:1.5em;
+}
+.main figure{
+    text-align: center;
+}
+
+
+.main-sinc section{
+   
+    margin: 5rem;
+}
+.main-sinc{
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    font-family: 'Prata', serif;
+    
+}
+.main-sinc h1{
+    font-size:2.5em;
+}
+.main-sinc h3{
+    font-size:.8em;
+}
+.main-sinc h4{
+    font-size:.6em;
+}
+.main-sinc figure{
+    text-align: center;
+}
+  
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+.fotos{
+    margin: 4rem;
+    box-sizing: border-box;
+    margin-right: 300px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    font-size:.5em;
+}
+
+.cuenta{
+    box-sizing: border-box;
+    font-size:1.5em;
+    float: left;
+    width: 135%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+.column{
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+  
+@media screen and (max-width: 650px) {
+  .column {
+      width: 100%;
+      display: block;
+    }
+}
+  
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+  
+.container {
+    padding: 0 16px;
+}
+  
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.title {
+    color: grey;
+  }
+  
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+.columnA {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+  /* Clearfix (clear floats) */
+.rowA::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.cuenta section article{
+    float: left;
+    width: 47%;
+   
+}
+.cuenta table{
+    border:#f4f4f4
+}
+.funcionesA{
+    border-radius: 10px;
+    margin: 5rem;  
+    
+}
+
+.fucionesA section{
+    margin: 5rem;
+    margin-left: 10px;
+}
+
+.fucionesA section, table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 7px solid;
+    margin-right: 300px;
+}
+
+.fucionesA th, td{
+    text-align: left;
+    padding: 15px;
+  
+    border:#100204;
+}
+.funcionesA th{
+    font-size:.7em;
+  
+}
+.funcionesA tbody{
+    border: 7px solid #100204;
+}
+.funcionesA td{
+    border: 7px solid #100204;
+}
+.funcionesA col {
+    border: #100204 7px solid;
+}
