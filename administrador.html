@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="Img/Icono.jpeg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LGD Cuenta de administradaor</title>
+
+    <link rel="stylesheet" href="./CSS/estilo.css">
+    <link rel="stylesheet" href="./CSS/inicio.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Jost:wght@300;500;700;900&family=Merriweather:wght@400;700&family=Orelega+One&family=Podkova&family=Prata&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="header">
+
+        <p></p>
+        <h2 style="text-align:left" ;> <span class="icon-price-tags"></span>FOOD CONTAINER </h2>
+
+    </div>
+
+    <div id="navbar">
+        <div id="navbar-right">
+
+            <a href="./cuenta.html"><span class="icon-spoon-knife"></span></a>
+            <a href="./index.html"><span class="icon-newspaper"></span></a>
+            <a href="./conocenos.html"><span class="icon-pushpin"></span>Acerca de </a>
+            <a class="active" href="./registrar.html"><span class="icon-user-plus"></span></a>
+
+
+        </div>
+    </div>
+    <div class="main-sinc">
+        <section>
+            <div class="funcionesA">
+                <section>
+                    <article>
+                        <br>
+                        <h3 style="text-align:center" ;> Agregar a la Base de Datos</h3>
+                        <h4 style="text-align:justify" ;>Introduce el Producto a Agregar</h4>
+                    </article>
+                    <article class="tabla">
+                        <table align="center" border="10" class="tabla-Producto">
+                            <thead>
+                                <tr>
+                                    <th>Producto</th>
+                                    <th>Calorias</th>
+                                    <th>Cantidad</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="text" name="Producti" id="Productoi" readonly
+                                            class="input_Producto"></td>
+                                    <td><input type="text" name="Caloriai" id="Caloriasi" readonly
+                                            class="input_Producto"></td>
+                                    <td><input type="text" name="Cantidi" id="Azucaresi" readonly
+                                            class="input_Producto"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                        <span>Agregado con exito</span>
+                        <h4 style="text-align:center" ;>
+                            <input class="button-agregar" name="Botón" type="button" value="Agregar" onclick="">
+                        </h4>
+                    </article>
+                </section>
+            </div>
+            <!-- Fin Agregar -->
+            <!-- Inicio Actualizar -->
+            <div class="funcionesA">
+                <section>
+                    <article>
+                        <h3 style="text-align:center" ;>Actualizar Alimentos</h3>
+                        <h4 style="text-align:justify" ;>
+                            Introduce el ID Producto a Localizar: <input type="text" name="Buscar-Producto"
+                                onkeypress="return validarn(event)"></h4>
+                    </article>
+                </section>
+                <section>
+                    <article>
+                        <h3 style="text-align:justify" ;> Y ahora sus nuevos atributos: </h3>
+                        <br>
+                        <table align="center" border="10" class="tabla-Producto">
+                            <thead>
+                                <tr>
+                                    <th>Producto</th>
+                                    <th>Calorias</th>
+                                    <th>Cantidad</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="text" name="Producti" id="Productoi"
+                                            onkeypress="return validarp(event)" class="input_Producto"></td>
+                                    <td><input type="text" name="Caloriai" id="Caloriasi"
+                                            onkeypress="return validarn(event)" class="input_Producto"></td>
+                                    <td><input type="text" name="Cantidi" id="Azucaresi"
+                                            onkeypress="return validarn(event)" class="input_Producto"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                        <h3 style="text-align:center" ;>
+                            <input class="button-agregar" name="Botón" type="button" value="Actualizar" onclick="">
+                            <span>Actualizado con exito</span>
+                        </h3>
+                        <figure>
+                        </figure>
+                    </article>
+                </section>
+            </div>
+
+            <!-- Fin Actualizar -->
+
+            <!-- Inicio Eliminar -->
+            <div class="funcionesA">
+                <section>
+                    <article>
+                        <h3 style="text-align:center" ;>Eliminar Alimento/Usuarios</h3>
+                        <h4 style="text-align:justify" ;>
+                            Introduce el ID del Producto a Eliminar: <input type="text" name="Buscar-Producto"
+                                onkeypress="return validarn(event)"></h4>
+                        <h4 style="text-align:justify" ;>
+                            Introduce el ID del Usuario a Eliminar: <input type="text" name="Buscar-Producto"
+                                onkeypress="return validarn(event)"></h4>
+                    </article>
+                </section>
+
+                <section>
+                    <article>
+                        <h1 style="text-align:center" ;> <input class="button-agregar" name="Botón" type="button"
+                                value="Eliminar" onclick=""></h1>
+                        <h3 style="text-align:center" ;>
+                            <span>Eliminado con exito</span>
+                        </h3>
+                    </article>
+                </section>
+            </div>
+
+            <!-- Fin Eliminar -->
+            <!-- Inicio Revisar -->
+            <div class="funcionesA">
+                <section>
+                    <article>
+                        <h3 style="text-align:center" ;>Registro Alimento/Usuario</h3>
+                        <h4 style="text-align:justify" ;>
+                            Selecciona que registro quieres checar.</h4>
+                    </article>
+                </section>
+
+                <section>
+                    <article>
+                        <h3 style="text-align:center">
+
+                            <input class="button-agregar" name="Botón" type="button" value="Usuarios" onclick="">
+                            <input class="button-agregar" name="Botón" type="button" value="Alimentos" onclick="">
+                        </h3>
+                        <h1 style="text-align:center" ;> </h1>
+                        <h3 style="text-align:center" ;> </h3>
+                        <figure>
+
+                        </figure>
+                    </article>
+                </section>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

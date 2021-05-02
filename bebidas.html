@@ -5,291 +5,356 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="Img/Icono.jpeg" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="CSS/iniciars.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bebidas </title>
-    <link rel="stylesheet" href="./CSS/texto.css">
-    <link rel="stylesheet" href="./CSS/menu.css">
-    <link rel="stylesheet" href="./CSS/Animacion.css">
+    <title>LGD Bebidas</title>
+
+    <link rel="stylesheet" href="./CSS/estilo.css">
+    <link rel="stylesheet" href="./CSS/efectos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Orelega+One&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Jost:wght@300;500;700;900&family=Merriweather:wght@400;700&family=Orelega+One&family=Podkova&family=Prata&display=swap"
         rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
-    <style>
-        #heading {
-            color: #f4f4f4;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <div class="Z">
-        <h1 id="heading" style="text-align:left" ;> . LGD </h1>
+
+
+
+    <div class="header">
+
+        <p></p>
+        <h2 style="text-align:left" ;><span class="icon-price-tags"></span>FOOD CONTAINER  </h2>
+
     </div>
 
+    <div id="navbar">
+        <div id="navbar-right">
 
-    <div class="Elementos">
-        <header>
-            <nav>
-                <div class="titulo">
-                    <center style="color:#302022" ;> FOOD CONTAINER </center>
-                </div>
-                <div class="inicio">
+            <a href="./cuenta.html"><span class="icon-spoon-knife"></span></a>
+            <a href="./index.html"><span class="icon-newspaper"></span></a>
+            <a href="./conocenos.html"><span class="icon-pushpin"></span>Acerca de</a>
+        </div>
+    </div>
 
-                    <div class="links">
-                        <a href="cuenta.html"><img src="./Img/Logo.png" width="180" height="165">
-                        </a>
+    <div class="sidenav">
+        <a href="./canastab.html"> <span class="icon-cart"></span> Canasta Básica</a>
+        <a href="./bebidas.html"> <span class="icon-glass"></span>Bebidas</a>
+        <a href="./snacks.html"> <span class="icon-pacman"></span>Snacks</a>
+    </div>
+    <div class="main">
+        <section>
+          
 
+            <div class="rowA">
+                <div class="columnA">
+                    <h3>Jugo de Manzana y Granda <br> "Del Valle"Reserva</h3>
+                    <div class="container">
 
-                        <div id="header">
-                            <nav>
-                                <!-- Aqui estamos iniciando la nueva etiqueta nav -->
-                                <ul class="nav">
-                                    <a href="index.html" > <button class="btn success"> PRINCIPAL </button></a>
-                      <a href="conocenos.html" > <button class="btn info">CONTACTO</button></a>
-                      <a href="registro.html" ><button class="btn warning">INICIAR SESIÓN</button></a>
-                                </ul>
-                            </nav><!-- Aqui estamos cerrando la nueva etiqueta nav -->
+                        <img src="Img/jugodemanzanaa.png" alt="Jugo de Manzana y Granda Del Valle Reserva"
+                            class="image">
+                        <div class="overlay">
+                            <div class="text"> Calorías: 42
+                                <p>
+                                    Cantidad por
+                                    100 gramos
+                                </p>
+                            </div>
                         </div>
                     </div>
+
+                    <label for="myCheck">Agregalo a la calculadora</label>
+                    <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+
+
                 </div>
-            </nav>
-            <figure>
-                <img src="./Img/Frutas.png">
-            </figure>
-        </header>
+                <div class="columnA">
+                    <h3>Levité <br>Sabor Jamaica</h3>
+                    <div class="container">
+
+                        <img src="Img/bonafont.jpg" alt="Levité Sabor Jamaica" class="image">
+                        <div class="overlay">
+                            <div class="text"> Calorías: 42
+                                <p>
+                                    Cantidad por 1.5 L
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <label for="myCheck">Agregalo a la calculadora</label>
+                    <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+                </div>
+                <div class="columnA">
+                    <h3>Licuado de Yogurt <br>de Nestlé</h3>
+                    <div class="container">
+
+                        <img src="Img/licuado.jpg" alt="Licuado de Yogurt <br>de Nestlé" class="image">
+                        <div class="overlay">
+                            <div class="text"> Calorías: 333
+                                <p>
+                                    Cantidad por
+                                    500 gramos
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <label for="myCheck">Agregalo a la calculadora</label>
+                    <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+
+                </div>
+                <div class="columnA">
+                    <h3>>Fuze Tea<br> "Té Negro Limón"</h3>
+                    <div class="container">
+
+                        <img src="Img/lim.jpg" alt=">Fuze Tea 'Té Negro Limón'" class="image">
+                        <div class="overlay">
+                            <div class="text"> Calorías: 192
+                                <p>
+                                    Cantidad por
+                                    600 gramos
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <label for="myCheck">Agregalo a la calculadora</label>
+                    <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+
+                </div>
+                <div class="columnA">
+                    <h3>Fuze Tea <br>Frutos Rojos</h3>
+                    <div class="container">
+
+                        <img src="Img/fuze.png" alt="Fuze Tea Frutos Rojos" class="image">
+                        <div class="overlay">
+                            <div class="text"> Calorías: 24
+                                <p>
+                                    Cantidad por 100g
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <label for="myCheck">Agregalo a la calculadora</label>
+                    <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+
+                </div>
+                <div class="columnA">
+                    <h3>Boing <br>Diferentes <br>Sabores</h3>
+                    <div class="container">
+
+                        <img src="Img/Boing.png" alt="Boing Diferentes <br>Sabores" class="image">
+                        <div class="overlay">
+                            <div class="text"> Calorías: 34
+                                <p>
+                                    Cantidad por 100ml
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <label for="myCheck">Agregalo a la calculadora</label>
+                    <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+
+                </div>
+                <div class="columnA">
+                    <h3>Arizona Sandia</h3>
+                    <div class="container">
+
+                        <img src="Img/Arizona.png" alt="Arizona Sandia" class="image">
+                        <div class="overlay">
+                            <div class="text"> Calorías: 100
+                                <p>
+                                    Cantidad por 240ml
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <label for="myCheck">Agregalo a la calculadora</label>
+                    <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+
+                </div>
+                <div class="columnA">
+                    <h3>Arizona Kiwi con Fresa</h3>
+                    <div class="container">
+
+                        <img src="Img/ari.png" alt="Arizona Kiwi con Fresa" class="image">
+                        <div class="overlay">
+                            <div class="text"> Calorías: 116
+                                <p>
+                                    Cantidad por 240ml
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <label for="myCheck">Agregalo a la calculadora</label>
+                    <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+                    <p id="text" style="display:none"> :)</p>
+                </div>
+                <div class="columnA">
+                    <h3>Coca-Cola</h3>
+                    <div class="container">
+
+                        <img src="Img/cocass.png" alt="Coca-Cola" class="image">
+                        <div class="overlay">
+                            <div class="text"> Calorías: 42
+                                <p>
+                                    Cantidad por 100ml
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <label for="myCheck">Agregalo a la calculadora</label>
+                    <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+                    <p id="text" style="display:none"> :)</p>
+                </div>
+                <div class="columnA">
+                    <h3>Agua Purificada</h3>
+                    <div class="container">
+
+                        <img src="Img/puri.webp" alt="Agua Purificada" class="image">
+                        <div class="overlay">
+                            <div class="text"> Calorías: 0
+                                <p>
+                                    Cantidad por 100ml
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <label for="myCheck">Agregalo a la calculadora</label>
+                    <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+                    <p id="text" style="display:none"> :)</p>
+                </div>
+                <div class="columnA">
+                    <h3>Jugo de Naranja "Del Valle"</h3>
+                    <div class="container">
+
+                        <img src="Img/del.png" alt="Jugo de Naranja del valle " class="image">
+                        <div class="overlay">
+                            <div class="text"> Calorías: 34
+                                <p>
+                                    Cantidad por 100ml
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <label for="myCheck">Agregalo a la calculadora</label>
+                    <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+                    <p id="text" style="display:none"> :)</p>
+                </div>
+                <div class="columnA">
+                    <h3>Agua Mineral </h3>
+                    <div class="container">
+
+                        <img src="Img/agua.png" alt="Agua Mineral " class="image">
+                        <div class="overlay">
+                            <div class="text"> Calorías: 0
+                                <p>
+                                    Cantidad por 350ml
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <label for="myCheck">Agregalo a la calculadora</label>
+                    <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+                    <p id="text" style="display:none"> :)</p>
+                </div>
+                <div class="columnA">
+                    <h3>DanUp Fresa</h3>
+                    <div class="container">
+
+                        <img src="Img/dan.png" alt="DanUp Fresa " class="image">
+                        <div class="overlay">
+                            <div class="text"> Calorías: 245
+                                <p>
+                                    Cantidad por 350ml
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <label for="myCheck">Agregalo a la calculadora</label>
+                    <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+                    <p id="text" style="display:none"> :)</p>
+                </div>
+                <div class="columnA">
+                    <h3>Sangria Señorial</h3>
+                    <div class="container">
+
+                        <img src="Img/san.png" alt=" Sangria Señoriaal" class="image">
+                        <div class="overlay">
+                            <div class="text"> Calorías: 88
+                                <p>
+                                    Cantidad por 200ml
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <label for="myCheck">Agregalo a la calculadora</label>
+                    <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+                    <p id="text" style="display:none"> :)</p>
+                </div>
+                <div class="columnA">
+                    <h3>Pepsi</h3>
+                    <div class="container">
+
+                        <img src="Img/pep.png" alt=" Pepsi" class="image">
+                        <div class="overlay">
+                            <div class="text"> Calorías: 60
+                                <p>
+                                    Cantidad por 200ml
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <label for="myCheck">Agregalo a la calculadora</label>
+                    <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+                    <p id="text" style="display:none"> :)</p>
+                </div>
+
+
+
+        </section>
     </div>
+    <script>
+        window.onscroll = function () { myFunction() };
 
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
 
-    <br><br>
-    <center>
-        <div class="titulos">
-            <h1>Bebidas </h1>
-        </div>
-        <br>
-        <br>
-        <br>
-    </center>
-    <div class="contenedor">
-        <div class="style_prevu_kit3">
-
-            <h3>Jugo de Manzana y Granda <br>"Del Valle"Reserva</h3>
-            <img src="Img/jugodemanzanaa.png" alt="" width="120px">
-            <h4>
-                Calorías: 42
-                <sup></sup>
-            </h4>
-            <p>
-                Cantidad por
-                100 gramos
-            </p>
-            <br>
-
-            <br>
-            <a href=""></a>
-
-        </div>
-        <div class="style_prevu_kit3">
-            <h2>Levité <br>Sabor Jamaica</h2>
-            <img src="Img/bonafont.jpg" alt="" width="120px">
-            <h3>Calorias: 42</h3>
-            <p>Cantidad por 1.5 L</p>
-
-            <br>
-
-            <br>
-            <a href=""></a>
-
-        </div>
-        <div class="style_prevu_kit3">
-           
-            <h2>Licuado de Yogurt <br>de Nestlé</h2>
-        <img src="Img/licuado.jpg" alt="" width="120px">
-        <h3>Calorias: 333</h3>
-        <p>Cantidad por 500g</p>
-            <br>
-
-            <br>
-            <a href=""></a>
-
-        </div>
-        <div class="style_prevu_kit3">
-            <h2>Fuze Tea<br> "Té Negro Limón"</h2>
-            <img src="Img/lim.jpg" alt="" width="120px">
-            <h3>Calorias: 192</h3>
-            <p>Cantidad por 600 ml</p>
-            <br>
-            
-            <br> 
-            <a href=""></a>
-        </div>
-        <div class="style_prevu_kit3">
-            <h2>Fuze Tea <br>Frutos Rojos</h2>
-            <img src="Img/fuze.png" alt="" width="120px">
-            <h3>Calorias: 24</h3>
-            <p>Cantidad por 100g</p>
-            <br>
-            
-            <br> 
-            <a href=""></a>
-        </div>
-        <div class="style_prevu_kit3">
-            <h2>Boing <br>Diferentes <br>Sabores</h2>
-            <img src="Img/Boing.png" alt="" width="120px">
-            <h3>Calorias: 34</h3>
-            <p>Cantidad por 100ml</p>
-            <br>
-            
-            <br> 
-            <a href=""></a>
-        </div>
-        <br><br>
-        <div class="style_prevu_kit3">
-            <h2>Arizona Sandia</h2>
-            <img src="Img/Arizona.png" alt="" width="120px">
-            <h3>Calorias: 100</h3>
-            <p>Cantidad por 240ml</p>
-            <br>
-            
-            <br> 
-            <a href=""></a>
-        </div>
-        <div class="style_prevu_kit3">
-            <h2>Arizona <br>Te Verde con Miel</h2>
-            <img src="Img/Temiel.png" alt="" width="120px">
-            <h3>Calorias: 70kcal</h3>
-            <p>Cantidad por 240ml</p>
-            <br>
-            
-            <br> 
-            <a href=""></a>
-    
-        </div>
-        <div class="style_prevu_kit3">
-            <h2> Arizona Kiwi<br> con Fresa</h2>
-            <img src="Img/ari.png" alt="" width="120px">
-            <h3>Calorias: 116kcal</h3>
-            <p>Cantidad por 240ml</p>
-            <br>
-            
-            <br> 
-            <a href=""></a>
-        </div>
-        <div class="style_prevu_kit3">
-            <h2>Coca-Cola</h2>
-            <img src="Img/cocass.png" alt="" width="120px">
-            <h3>Calorias: 42kcal</h3>
-            <p>Cantidad por 100ml</p>
-            <br>
-            <br> 
-            <a href=""></a>
-        </div>
-        <div class="style_prevu_kit3">
-            <h2>Agua Purificada</h2>
-            <img src="Img/puri.webp" alt="" width="120px">
-            <h3>Calorias: 0kcal</h3>
-            <p>Cantidad por 100ml</p>
-            <br>
-            
-            <br> 
-            <a href=""></a>
-        </div>
-        <div class="style_prevu_kit3">
-            <h2>Jugo de Naranja<br> "Del Valle"</h2>
-            <img src="Img/del.png" alt="" width="120px">
-            <h3>Calorias: 34</h3>
-            <p>Cantidad por 100ml</p>
-            <br>
-        
-            <br> 
-            <a href=""></a>
-        </div>
-        <br><br><br>
-        <div class="style_prevu_kit3">
-            <h2>Agua Mineral</h2>
-            <img src="Img/agua.png" alt="" width="120px">
-            <h3>Calorias: 0kcal</h3>
-            <p>Cantidad por 350ml</p>
-            <br>
-            
-            <br> 
-            <a href=""></a>
-        </div>
-        <div class="style_prevu_kit3">
-            <h2>DanUp Fresa</h2>
-            <img src="Img/dan.png" alt="" width="120px">
-            <h3>Calorias: 245kcal</h3>
-            <p>Cantidad por 350ml</p>
-            <br>
-            
-            <br> 
-            <a href=""></a>
-        </div>
-        <div class="style_prevu_kit3">
-            <h2>Sangria Señorial</h2>
-            <img src="Img/san.png" alt="" width="120px">
-            <h3>Calorias: 88kcal</h3>
-            <p>Cantidad por 200ml</p>
-            <br>
-        
-            <br> 
-            <a href=""></a>
-        </div>
-        <div class="style_prevu_kit3">
-            <h2>Pepsi</h2>
-            <img src="Img/pep.png" alt="" width="120px">
-            <h3>Calorias: 60kcal</h3>
-            <p>Cantidad por 200ml</p>
-            <br>
-        
-            <br> 
-            <a href=""></a>
-        </div>
-        
-
-        <br>
-
-        <!--
-    <div id="conteiner">
-
-        <div id="content">
-            <div id="lateral">
-                <div id="favorites"></div>
-                <div id="lateral-publi"></div>
-            </div>
-        </div>
-
-    </div>
-    -->
-        <div class="footer">
-            <br>
-            <h1 style="text-align:center" ;> LGD</h1>
-            <p>.................................................................................................................................................................................................................................................................................................................................
-            </p>
-
-            <div class="enlaces-de-footer">
-                <br>
-                <ul>
-                    <li><a href="./index.html">PRINCIPAL</a></li>
-
-                    <li><a href="./conocenos.html">CONOCENOS</a></li>
-
-                    <li><a href="./carrito.html">CARRITO</a></li>
-
-                </ul>
-                <br>
-
-                <br>
-            </div>
-
-            <p>
-                .................................................................................................................................................................................................................................................................................................................................
-            </p>
-            <br><br>
-        </div>
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+   
 </body>
 
 </html>

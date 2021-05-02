@@ -1,188 +1,154 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="Img/Icono.jpeg" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="CSS/Cuenta.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuenta</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./CSS/texto.css">
-    <link rel="stylesheet" href="./CSS/menu.css">
-    <link rel="stylesheet" href="./CSS/Animacion.css">
+    <title>LGD Cuenta</title>
+
+    <link rel="stylesheet" href="./CSS/estilo.css">
+    <link rel="stylesheet" href="./CSS/inicio.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Orelega+One&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Jost:wght@300;500;700;900&family=Merriweather:wght@400;700&family=Orelega+One&family=Podkova&family=Prata&display=swap"
         rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
-    <style>
-        #heading {
-            color: #f4f4f4;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-    <div class="Z">
-        <h1 id="heading" style="text-align:left" ;> . LGD -Mi Cuenta- </h1>
+
+
+    <div class="header">
+
+        <p></p>
+        <h2 style="text-align:left" ;> <span class="icon-price-tags"></span>FOOD CONTAINER </h2>
+
     </div>
-    <!-- linea negra con LGD -->
-    <div class="Elementos">
-        <header>
-            <nav>
-                <div class="titulo">
-                    <center style="color:#302022" ;> FOOD CONTAINER </center>
-                </div>
-                <div class="inicio">
 
-                    <div class="links">
-                        <a href="cuenta.html"><img src="./Img/Logo activo.png" width="180" height="165">
-                        </a>
-                        <div id="header">
-                            <nav>
-                                <!-- Aqui estamos iniciando la nueva etiqueta nav -->
-                                <ul class="nav">
-                                    <a href="index.html" > <button class="btn success"> PRINCIPAL </button></a>
-                                    <a href="conocenos.html" > <button class="btn info">CONTACTO</button></a>
-                                    <a href="registro.html" ><button class="btn warning">INICIAR SESIÓN</button></a>
-                                </ul>
-                            </nav><!-- Aqui estamos cerrando la nueva etiqueta nav -->
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            <figure>
-                <img src="./Img/Frutas.png">
-            </figure>
-        </header>
+    <div id="navbar">
+        <div id="navbar-right">
+
+            <a class="active" href="./cuenta.html"><span class="icon-spoon-knife"></span></a>
+            <a href="./index.html"><span class="icon-newspaper"></span></a>
+            <a href="./conocenos.html"><span class="icon-pushpin"></span>Acerca de </a>
+            <a href="./registrar.html"><span class="icon-user-plus"></span></a>
+
+        </div>
     </div>
-    <!-- menú -->
-    <div class="cuenta">
-       
-        <header>
+
+    <div class="sidenav">
+        <a href="./canastab.html"> <span class="icon-cart"></span> Canasta Básica</a>
+        <a href="./bebidas.html"> <span class="icon-glass"></span>Bebidas</a>
+        <a href="./snacks.html"> <span class="icon-pacman"></span>Snacks</a>
+        <article>
+            <a href="./registrar.html"><span class="icon-user-plus"></span>Registrate gratis</a>
+            <a href="./iniciarsesion.html"><span class="icon-user"></span>Inicia Sesión</a>
+        </article>
+
+
+    </div>
+
+    <div class="main">
+        <section>
+            <h3>Usuario</h3>
             <nav>
-               
-                <div class="inicio">
-                    <div class="Elementos-de-conocenos">
-                       
-                        <section class="seccion">
-                            <article class="Datos">
-                               
-                                <div class="Datosn">
-                                    <table align="left">
-                                        <tr>
-                                            <td class="dato">Nombre:</td>
-                                            <td class="valor"><input type="text" name="nombre" id="cantidad" readonly
-                                                    class="input_text">
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="dato">Edad:</td>
-                                            <td class="valor"><input type="text" name="edad" id="cantidad" readonly
-                                                    class="input_text">
-                                            </td>
-                                        </tr>
+                <div class="cuenta">
+                    <section>
+                        <article>
+                            <table >
+                                <tr>
+                                    <td class="dato">Nombre:</td>
+                                    <td class="valor"><input type="text" name="nombre" id="cantidad" readonly
+                                            class="input_text">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dato">Edad:</td>
+                                    <td class="valor"><input type="text" name="edad" id="cantidad" readonly
+                                            class="input_text">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dato">Usuario:</td>
+                                    <td class="valor"><input type="text" name="usuario" id="cantidad" readonly
+                                            class="input_text">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="dato">Correo electronico:</td>
+                                    <td class="valor"><input type="text" name="corre" id="cantidad" readonly
+                                            class="input_text">
+                                    </td>
+                                </tr>
+                            </table>
+                        </article>
+                        <article>
+                            <table>
+                                <tr>
+                                    <td align="center" class="dato">
 
-                                        <tr>
-                                            <td class="dato">Usuario:</td>
-                                            <td class="valor"><input type="text" name="usuario" id="cantidad" readonly
-                                                    class="input_text">
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="dato">Correo electronico:</td>
-                                            <td class="valor"><input type="text" name="corre" id="cantidad" readonly
-                                                    class="input_text">
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </article>
-                            <aside>
+                                        <h3>Tu avatar</h3>
+                                    </td>
+                                </tr>
 
-                            </aside>
-                        </section>
+                                <tr>
+                                    <td class="AV"><img src="Img/avatar.png" width="180" height="165" alt=""></td>
+                                </tr>
 
+                                <tr>
+                                    <td align="center" class="ava"><input type="button" name="avatar"
+                                            value="Cambiar avatar" onclick="">
+                                    </td>
 
-                    </div>
+                                </tr>
+                            </table>
+                        </article>
+                        <br><br><br>
+                        <br><br>
+                    </section>
+
 
                 </div>
+
+
             </nav>
-
-            <table>
-                <tr>
-                   
-                    <td align="center" class="dato">
-                      <a href="carrito.html" ><span class="icon-cart"><p>Carrito</p></span></a> 
-                        <h2>Tu avatar</h2>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td class="AV"><img src="Img/avatar.png" width="180" height="165" alt=""></td>
-                </tr>
-                <tr></tr>
-                <tr>
-                <tr></tr>
-                </tr>
-                <tr></tr>
-                <tr>
-                    <td align="center" class="ava"><input type="button" name="avatar" value="Cambiar avatar" onclick="">
-                    </td>
-                </tr>
-            </table>
-        </header>
+        </section>
         
-      
-       
-    </div>
-    
-    
-    <!-- 
-                
-    <div id="conteiner">
-
-        <div id="content">
-            <div id="lateral">
-                <div id="favorites"></div>
-                <div id="lateral-publi"></div>
-            </div>
-        </div>
 
     </div>
 
-   -->
-    <div class="footer">
-        <br>
-        <h1 style="text-align:center" ;> LGD</h1>
-        <p>.................................................................................................................................................................................................................................................................................................................................
-        </p>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
 
-        <div class="enlaces-de-footer">
-            <br>
-            <ul>
-                <li><a href="./index.html">PRINCIPAL</a></li>
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
 
-                <li><a href="./conocenos.html">CONOCENOS</a></li>
 
-                <li><a href="./carrito.html">CARRITO</a></li>
+    <script>
+        window.onscroll = function () { myFunction() };
 
-            </ul>
-            <br>
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
 
-            <br>
-        </div>
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
 
-        <p>
-            .................................................................................................................................................................................................................................................................................................................................
-        </p>
-        <br><br>
-    </div>
 
 </body>
 
